@@ -361,7 +361,6 @@ h6 {
 }
 
 .faq-container {
-    background-color: #FFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -387,7 +386,7 @@ h6 {
 .faq-text {
     color: var(--text, #252B42);
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
@@ -572,8 +571,9 @@ h6 {
 
 .footer-text {
     color: var(--second-text, #5C5C5C);
+    text-align: right;
     font-family: Montserrat;
-    font-size: 17px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 700;
     line-height: 18px;
@@ -584,13 +584,16 @@ h6 {
 
 /* For the desktop screen - max-width: 991.98px */
 @media (max-width: 991.98px) {
+
     /* Styles for the desktop screen */
     .navbar {
         padding: 0px 0px 0px 2px;
     }
+
     .form-container {
         margin-top: 18px;
     }
+
     .payment-cards-container {
         margin: 0px 40px 0px 40px;
         gap: 30px;
@@ -599,25 +602,34 @@ h6 {
 
 /* For tablet screen - max-width: 755.98px */
 @media (max-width: 755.98px) {
+
     /* Styles for the tablet screen */
     .main-headings-section {
         padding: 120px 20px 120px 20px;
     }
-    .payment-cards-container, .more-testimonial-button {
+
+    .payment-cards-container,
+    .more-testimonial-button {
         margin: 0px 20px 0px 20px;
     }
-    .modules-section, .FAQ-section {
+
+    .modules-section,
+    .FAQ-section {
         padding: 160px 20px 160px 20px;
     }
+
     .card-body {
         margin: 5px;
     }
+
     .faq-list-container {
-        grid-template-columns: 200px 200px;
+        grid-template-columns: auto auto;
     }
+
     .modular-kit-section {
         padding: 130px 20px 130px 20px;
     }
+
     .footer-section {
         padding: 20px;
         flex-direction: column;
@@ -628,17 +640,22 @@ h6 {
 
 /* For mobile screens - max-width: 555.98px */
 @media (max-width: 555.98px) {
+
     /* Styles for mobile screens */
-    .form-container, .mkit-subTitle-text {
+    .form-container,
+    .mkit-subTitle-text {
         width: auto;
     }
+
     .monthly-buuton,
     .yearly-button {
         padding: 0px 5px;
     }
+
     .faq-list-container {
-        grid-template-columns: 300px;
+        grid-template-columns: 200px;
     }
+
     .review-card-body {
         margin: 20px;
     }
@@ -646,16 +663,21 @@ h6 {
 
 /* For small mobile screens - max-width: 455.98px */
 @media (max-width: 455.98px) {
+
     /* Styles for small mobile screens */
-    .card-sub-title, .tool-card {
+    .card-sub-title,
+    .tool-card {
         width: auto;
     }
+
     .faq-list-container {
         grid-template-columns: 200px;
     }
+
     .reviewr-info-container {
         margin-left: 0px;
     }
+
     .modular-kit-buttons {
         flex-direction: column;
         align-items: center;
