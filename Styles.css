@@ -1,0 +1,681 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* __________________________________________ Header Style ___________________________________________*/
+
+.navbar {
+    background-color: #FFFFFF;
+    padding: 20px 30px 20px 30px;
+}
+
+.navbar-toggler-icon {
+    background-image: url('/Images/bx_bx-menu-alt-right.svg');
+}
+
+.navbar-brand {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-toggler {
+    padding: 0px;
+}
+
+.nav-link {
+    margin-right: 21px;
+    padding: 10px;
+    color: var(--text, #252B42);
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.nav-link:hover {
+    color: var(--text, #2091F9);
+}
+
+.form-container {
+    width: 300px;
+}
+
+.email-textfield {
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #E8E8E8;
+    background: #EFEFEF;
+    color: #B0B0B0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+}
+
+.subscribe-button {
+    margin-left: 12px;
+    width: 151px;
+    height: 40px;
+    border-radius: 5px;
+    background: var(--primary, #2091F9);
+    color: var(--light-text, #FFFFFF);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    border: none;
+}
+
+/* __________________________________________ Main Headings Style ___________________________________________*/
+
+.main-headings-section {
+    background-color: #FAFAFA;
+    padding: 120px 0px 120px 0px;
+}
+
+.pricing-text {
+    color: var(--second-text, #737373);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
+.black-text {
+    color: var(--text, #252B42);
+    font-family: Montserrat;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+
+.gradient-text {
+    background: var(--background-gradient, linear-gradient(28deg, #00F3B9 0%, #2187FF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+
+.bottom-heading-text {
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+    width: 800px;
+    color: var(--second-text, #737373);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+
+/* __________________________________________ Main Headings Style ___________________________________________*/
+
+.payment-cards-section {
+    padding: 100px 0px 100px 0px;
+    background-color: #FFFFFF;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.monthly-buuton {
+    padding: 0px 30px;
+    border: 2px solid #E9E9E9;
+    background: var(--light-background, #FFF);
+    color: var(--primary, #2091F9);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    height: 43px;
+}
+
+.yearly-button {
+    padding: 0px 26px;
+    border: 2px solid #E9E9E9;
+    background: #EEE;
+    color: #D1D1D1;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+/* __________________________________________ Payments cards styles ___________________________________________*/
+
+.payment-cards-container {
+    margin: 0px 50px 0px 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--primary, #2091F9);
+    background: var(--light-background, #FFF);
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.standard-card {
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    background: var(--background-gradient, linear-gradient(28deg, #00F3B9 0%, #2187FF 100%));
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.card-body {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    margin-top: 20px;
+    color: var(--text, #252B42);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.card-sub-title {
+    margin: 16px 0px 30px 0px;
+    width: 180px;
+    color: var(--second-text, #737373);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.price {
+    color: var(--primary, #2091F9);
+    font-family: Montserrat;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+
+.dollar {
+    color: var(--primary, #2091F9);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
+.per-month-text {
+    color: var(--disabled, #8EC2F2);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.card-list {
+    padding: 30px 10px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.list-text {
+    margin-left: 8px;
+    color: var(--text, #252B42);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.card-button {
+    border-radius: 30px;
+    height: 45px;
+    width: 80%;
+    background: var(--primary, #2091F9);
+    border: none;
+    color: var(--light-text, #FFF);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+/* change all the color of required elements of standars card*/
+.standard-card p,
+.standard-card h1,
+.standard-card h3,
+.standard-card h5,
+.standard-card h4 {
+    color: var(--light-text, #FFF);
+}
+
+.standard-card button {
+    background: var(--light-text, #FFF);
+    color: #2091F9;
+}
+
+/* __________________________________________ Modules section styles ___________________________________________*/
+
+.modules-section {
+    padding: 160px 130px 160px 130px;
+    background-color: #F4F4F4;
+}
+
+.tools-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tool-card {
+    width: 250px;
+    padding: 10px;
+}
+
+.tool-card-title {
+    color: var(--text, #252B42);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
+.tool-card-description {
+    color: var(--second-text, #737373);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+/* __________________________________________ FAQ section styles ___________________________________________*/
+
+.FAQ-section {
+    padding: 160px 0px 160px 0px;
+    background-color: #fff;
+}
+
+.faq-container {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.faq-title {
+    color: var(--primary, #2091F9);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.faq-list-container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 20px;
+}
+
+.faq-text {
+    color: var(--text, #252B42);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.horizontal-line {
+    width: 50%;
+}
+
+/* __________________________________________ review section styles ___________________________________________*/
+
+.reviews-section {
+    padding: 160px 0px 160px 0px;
+    background-color: #FFFFFF;
+}
+
+.people-heading-text {
+    color: var(--text, #252B42);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.people-reviews-container {
+    padding: 50px 10% 50px 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.review-card {
+    margin-bottom: 5%;
+    flex: 1 1 25%;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    background: var(--light-background, #FFF);
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    display: flex;
+    justify-content: center;
+}
+
+.review-card-body {
+    margin: 20px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rating-stars {
+    color: #F3CD03;
+    font-size: 30px;
+}
+
+.review-text {
+    color: var(--second-text, #737373);
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+
+}
+
+.reviewr-info-container {
+    margin-left: 10px;
+}
+
+.reviewr-organization-text {
+    color: var(--second-text, #737373);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.reviewr-desgination-text {
+    color: var(--text, #252B42);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.more-testimonial-button {
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    background: var(--primary, #2091F9);
+    border: none;
+    color: var(--light-text, #FFF);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
+/* __________________________________________ modular kit section styles ___________________________________________*/
+
+.modular-kit-section {
+    padding: 130px 0px 130px 0px;
+    background: var(--dark-background, #252B42);
+}
+
+.mkit-title-text {
+    color: var(--light-text, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.mkit-subTitle-text {
+    width: 450px;
+    color: var(--light-gray, #BDBDBD);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+
+.modular-kit-buttons {
+    display: flex;
+}
+
+.mkit-buy-button {
+    padding: 5px 20px 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background: var(--primary, #2091F9);
+    color: var(--light-text, #FFF);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.mkit-try-button {
+    padding: 5px 20px 5px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid var(--light-background, #FFF);
+    background-color: transparent;
+    color: var(--light-text, #FFF);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+/* __________________________________________ modular kit section styles ___________________________________________*/
+
+.footer-section {
+    padding: 20px 3% 20px 3%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    color: var(--second-text, #5C5C5C);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+}
+
+/* __________________________________________ Media Quries ___________________________________________*/
+
+/* For the desktop screen*/
+@media (max-width: 991.98px) {
+
+    .navbar {
+        padding: 0px 0px 0px 2px;
+    }
+    .form-container {
+        margin-top: 18px;
+    }
+    .payment-cards-container {
+        margin: 0px 40px 0px 40px;
+        gap: 30px
+    }
+    
+
+}
+
+/* For tablet screen*/
+@media (max-width: 755.98px) {
+
+    .main-headings-section {
+        padding: 120px 20px 120px 20px;
+    }
+    .payment-cards-container {
+        margin: 0px 20px 0px 20px;
+    }
+    .card-body {
+        margin: 5px;
+    }
+    .modules-section {
+        padding: 160px 20px 160px 20px;
+    }
+    .faq-list-container {
+        grid-template-columns: 200px 200px;
+    }
+    .more-testimonial-button {
+        margin: 0px 20px 0px 20px;
+    }
+    .modular-kit-section {
+        padding: 130px 20px 130px 20px;
+    }
+    .FAQ-section {
+        padding: 160px 20px 160px 20px;
+    }
+    .footer-section {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
+
+/* For mobile screens*/
+@media (max-width: 555.98px) {
+
+    .form-container {
+        width: auto;
+    }
+    .monthly-buuton,
+    .yearly-button {
+        padding: 0px 5px;
+    }
+    .faq-list-container {
+        grid-template-columns: 300px;
+    }
+    .review-card-body {
+        margin: 20px;
+    }
+    .mkit-subTitle-text {
+        width: auto;
+    }
+
+}
+
+/*For small mobile */
+@media (max-width: 455.98px) {
+
+    .card-sub-title {
+        width: auto;
+    }
+    .tool-card {
+        width: auto;
+    }
+    .faq-list-container {
+        grid-template-columns: 200px;
+    }
+    .reviewr-info-container {
+        margin-left: 0px;
+    }
+    .modular-kit-buttons{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
