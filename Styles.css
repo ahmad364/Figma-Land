@@ -582,9 +582,9 @@ h6 {
 
 /* __________________________________________ Media Quries ___________________________________________*/
 
-/* For the desktop screen*/
+/* For the desktop screen - max-width: 991.98px */
 @media (max-width: 991.98px) {
-
+    /* Styles for the desktop screen */
     .navbar {
         padding: 0px 0px 0px 2px;
     }
@@ -593,38 +593,30 @@ h6 {
     }
     .payment-cards-container {
         margin: 0px 40px 0px 40px;
-        gap: 30px
+        gap: 30px;
     }
-    
-
 }
 
-/* For tablet screen*/
+/* For tablet screen - max-width: 755.98px */
 @media (max-width: 755.98px) {
-
+    /* Styles for the tablet screen */
     .main-headings-section {
         padding: 120px 20px 120px 20px;
     }
-    .payment-cards-container {
+    .payment-cards-container, .more-testimonial-button {
         margin: 0px 20px 0px 20px;
+    }
+    .modules-section, .FAQ-section {
+        padding: 160px 20px 160px 20px;
     }
     .card-body {
         margin: 5px;
     }
-    .modules-section {
-        padding: 160px 20px 160px 20px;
-    }
     .faq-list-container {
         grid-template-columns: 200px 200px;
     }
-    .more-testimonial-button {
-        margin: 0px 20px 0px 20px;
-    }
     .modular-kit-section {
         padding: 130px 20px 130px 20px;
-    }
-    .FAQ-section {
-        padding: 160px 20px 160px 20px;
     }
     .footer-section {
         padding: 20px;
@@ -632,13 +624,12 @@ h6 {
         align-items: center;
         gap: 20px;
     }
-
 }
 
-/* For mobile screens*/
+/* For mobile screens - max-width: 555.98px */
 @media (max-width: 555.98px) {
-
-    .form-container {
+    /* Styles for mobile screens */
+    .form-container, .mkit-subTitle-text {
         width: auto;
     }
     .monthly-buuton,
@@ -651,19 +642,12 @@ h6 {
     .review-card-body {
         margin: 20px;
     }
-    .mkit-subTitle-text {
-        width: auto;
-    }
-
 }
 
-/*For small mobile */
+/* For small mobile screens - max-width: 455.98px */
 @media (max-width: 455.98px) {
-
-    .card-sub-title {
-        width: auto;
-    }
-    .tool-card {
+    /* Styles for small mobile screens */
+    .card-sub-title, .tool-card {
         width: auto;
     }
     .faq-list-container {
@@ -672,10 +656,9 @@ h6 {
     .reviewr-info-container {
         margin-left: 0px;
     }
-    .modular-kit-buttons{
+    .modular-kit-buttons {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-
 }
