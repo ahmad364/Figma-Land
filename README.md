@@ -1,5 +1,4 @@
-
-  # Figma Land
+# Figma Land
 
 Figma Land is a responsive and well-styled website built purely with HTML and CSS. This project showcases the front-end implementation of a design, focusing on responsiveness and styling to ensure a great user experience across various devices.
 
