@@ -4,7 +4,7 @@ Figma Land is a responsive and well-styled website built purely with HTML and CS
 
 ## Demo
 
-Check out the live demo: [Figma Land](https://my-ui-assignment.netlify.app)
+Check out the live demo: [Figma Land](https://figmaland5.netlify.app/)
 
 ## Table of Contents
 
